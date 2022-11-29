@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{E730C089-2FE3-4E77-8432-FC9D9AA2B79A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{1AFB1D54-1851-4A7E-A340-CF5516923A6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{680E2462-4FAF-46B5-B8A6-45DFD1205ABC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{97D63D30-DCDF-4C35-A432-E05807009F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FenySoft.Qdb.Remote", "Modules\FenySoft.Qdb.Remote\FenySoft.Qdb.Remote.csproj", "{032E4199-D6B2-41C7-8539-CB9DAB46B5A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{032E4199-D6B2-41C7-8539-CB9DAB46B5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032E4199-D6B2-41C7-8539-CB9DAB46B5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032E4199-D6B2-41C7-8539-CB9DAB46B5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032E4199-D6B2-41C7-8539-CB9DAB46B5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{032E4199-D6B2-41C7-8539-CB9DAB46B5A2} = {680E2462-4FAF-46B5-B8A6-45DFD1205ABC}
+	EndGlobalSection
+EndGlobal
